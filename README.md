@@ -1,4 +1,3 @@
-from pathlib import Path
 
 # Content for the README.md file
 readme_content = """
@@ -61,10 +60,4 @@ Reading from and writing to files using `fstream`, managing file streams, and un
 #### 🔹 Templates and Exception Handling
 Writing generic and reusable code using templates, and handling runtime errors safely using try-catch blocks.
 """
-
-# Save the content to a README.md file
-output_path = Path("/mnt/data/README_CPP.md")
-output_path.write_text(readme_content)
-
-output_path.name  # Just returning the filename to confirm creation
 
